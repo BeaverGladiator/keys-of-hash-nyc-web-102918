@@ -3,7 +3,7 @@ class Hash
     # code goes here
     
     key_array = []
-    
-    h.keys 
+    binding.pry
+    hash.keys 
   end
 end
