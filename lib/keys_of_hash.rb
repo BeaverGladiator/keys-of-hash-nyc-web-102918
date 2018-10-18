@@ -4,7 +4,7 @@ class Hash
     # code goes here
     key_array = [] 
     binding.pry
-    self.each do |item, value|
+    self.each do |key, value|
     
       # if value == arguments
       # key_array << item
