@@ -1,6 +1,6 @@
 require "pry"
 class Hash
-  def keys_of(*arguments, hash)
+  def keys_of(arguments)
     # code goes here
     
     key_array = []
