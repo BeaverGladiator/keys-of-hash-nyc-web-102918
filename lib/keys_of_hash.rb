@@ -5,6 +5,6 @@ class Hash
     
     key_array = []
     binding.pry
-    hash.keys 
+    arguments.keys 
   end
 end
