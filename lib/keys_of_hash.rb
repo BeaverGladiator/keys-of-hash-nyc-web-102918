@@ -4,6 +4,6 @@ class Hash
     
     key_array = []
     
-    arguments.keys 
+    h.keys 
   end
 end
