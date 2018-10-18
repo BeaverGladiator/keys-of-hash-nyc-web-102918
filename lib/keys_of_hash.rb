@@ -5,10 +5,9 @@ class Hash
     key_array = [] 
     binding.pry
     self.each do |key, value|
-    
-      # if value == arguments
-      # key_array << item
-      # end
+      if value == arguments
+        key_array << key
+      end
     end
     key_array
   end
