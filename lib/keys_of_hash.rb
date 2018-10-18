@@ -4,10 +4,10 @@ class Hash
     # code goes here
     key_array = [] 
     self.each do |item, value|
-      if value == arguments
-        binding.pry
-       key_array << item
-      end
+       binding.pry
+      # if value == arguments
+      # key_array << item
+      # end
     end
     key_array
   end
